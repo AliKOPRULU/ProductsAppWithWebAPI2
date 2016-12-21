@@ -28,7 +28,7 @@ namespace ProductsAppWithWebAPI2.Controllers
             {
                 return NotFound();
             }
-            return Ok(products);
+            return Ok(product);
         }
     }
 }
